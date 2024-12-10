@@ -1,0 +1,1 @@
+1. Desarrolle el código fuente de un programa que permita ingresar cinco voltajes, obtener su promedio y visualizar `"ALTO VOLTAJE"`, si su promedio es mayor a 220, caso contrario sea menor mostrar `"VOLTAJE CORRECTO"`.
