@@ -1,1 +1,9 @@
-Desarrolle un programa que solicite ingrese tres voltajes distintos e indique si el promedio de los voltajes ingresados es menor a 115 visualice `"VOLTAJE CORRECTO"`, caso contrario sea mayor a 115 y menor a 220 visualice `"ALTO VOLTAJE"`, y si es mayor a 220 visualice `"PELIGRO"`.
+Desarrolle el código fuente de un programa que permita ingresar y leer el valor correspondiente a una distancia en metros y la visualice expresadas en km.
+
+Para convertir `metros` a `kilómetros`, puedes usar la siguiente fórmula:
+
+![](https://i.ibb.co/dGbhkgv/image.png)
+
+**Explicación**:
+
+- 1 kilómetro es igual a 1000 metros, así que simplemente divides la cantidad de metros entre 1000 para obtener el valor en kilómetros.
