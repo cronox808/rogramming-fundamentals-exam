@@ -1,10 +1,12 @@
-import math
+v1 = float(input("ingrese el primer voltaje: "))
+v2 = float(input("ingrese el segundo voltaje: "))
+v3 = float(input("ingrese el tercero voltaje: "))
 
-a = float(input("ingrese el valor de los lados del triangulo eqilatero: "))
+promedio = v1 + v2 + v3 // 3
 
-raiz = (math.sqrt(3)/4) * (a** 2)
-
-if(raiz >= 1000):
-    print("DATOS NO VÁLIDOS")
-else:
-    print(f"el area del triangulo es {raiz}")
+if(promedio < 150):
+    print("VOLTAJE CORRECTO")
+elif(promedio > 150 and promedio < 220):
+    print("ALTO VOLTAJE")
+elif(promedio > 220):
+    print("PELIGRO")
